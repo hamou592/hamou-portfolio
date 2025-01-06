@@ -303,7 +303,7 @@
       display: none;
     }
     .skills-filter-dropdown {
-      display: block;
+      display: inline-block;
       border: none;
       margin: 20px 0;
       position: relative;
