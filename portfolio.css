@@ -560,7 +560,7 @@
     }
     /*this is for the content of the sidebar of the navbar*/
     nav ul li a{
-        background: #4cc9f0;
+        background: white;
         box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
         width: 100%;
         height: 100%;
@@ -568,7 +568,7 @@
         place-items: center;  
     }
     nav ul li a:hover{
-        background: #1e5afa;
+        background: #480ca8;
         border-radius: 0%;
     }
     /*this is used to style the button of the navbar*/
