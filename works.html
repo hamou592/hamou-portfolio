@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMOU NASREDDINE</title>
+    <meta name="descrription" content="The best  portfolio"><!--to add the description of the web site-->
+    <meta name="keywords" content="Hamou,NASREDDINE,hamou nasreddine,portfolio,css,javascript,html"><!--to add keywords that help-->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+    <!-- pictures for the logo of the title -->
+    
+    <link rel="icon" href="photos/logo.png" >
+</head>
+<body>
+    <!-- this is the main page -->
+    <header>
+        <!-- this is the navbar part -->
+        <nav class="nav-container">
+            <h2><a href="index.html#">MY-PORTFOLIO</a> </h2>
+            <ul>
+                <li><a href="index.html#">HOME</a></li>
+                <li><a href="index.html#function">SERVICES</a></li>
+                <li><a href="index.html#our-work">PORTFOLIO</a></li>
+                <li><a href="index.html#talk">CONTACT</a></li>
+                <button>
+                     <!--the word "download" is for downloading the cv-->
+                    <a href="/photos/cv.pdf" class="btn-primary" download>
+                        <span class="material-symbols-sharp">file_download</span>
+                        <h3>DOWNLOAD CV</h3>
+                    </a>
+                </button>
+            </ul>
+            <div class="close-btn">
+                <span  class="material-icons-sharp menu">menu</span>
+                <span  class="material-icons-sharp close">close</span>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="our-work" class="works">
+        <div class="images-content ">
+            <div class="box">
+                <img src="photos/p8.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://robot-clone.netlify.app/" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p2.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-travel.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p4.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-gym.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p7.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-hospital.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p1.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-renit.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p3.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-ecommerce.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p5.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-social.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p6.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-crud.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="talk">
+        <div class="text-content">
+            <h2>Let's work <br /> together</h2>
+            <div class="contact-link">
+                <div class="mail link">
+                    <h3>Mail</h3>
+                    <h6>nasreddinehamou8@gmail.com</h6>
+                </div>
+                <div class="addresse  link">
+                    <h3>Adress</h3>
+                    <h6>19 Street Belarbi ElHabib, Oran,Algeria</h6>
+                </div>
+                <div class="phone  link">
+                    <h3>Phone</h3>
+                    <h6>+213 659 181 999</h6>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089688589413" target="_blank"><img src="/photos/facebook.png" alt=""></a>
+                <a href="https://github.com/hamou592" target="_blank"><img src="/photos/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/hamou-nasreddine-a967622a9/" target="_blank"><img src="/photos/linkedin.png" alt=""></a>
+            </div>
+        </div>    
+        <div class="contact">
+            <form action="https://formspree.io/f/mzbonzlo" target="_blank" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="name@gmailcom" required>
+                <textarea name="messag" rows="7" placeholder="Add a Message" required></textarea>
+                <button class="btn-primary">
+                    <h3>Send</h3>
+                    <span class="material-symbols-sharp">north_east</span>
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <h4 class="footer">Copyright &#169 Hamou Nasreddine 2024 </h4>
+
+    <script src="portfolio.js"></script>
+    <script src="testimonial.js"></script>
+</body>
+
+
+
+</html>

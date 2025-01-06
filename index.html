@@ -1,0 +1,258 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMOU NASREDDINE</title>
+    <meta name="descrription" content="The best  portfolio"><!--to add the description of the web site-->
+    <meta name="keywords" content="Hamou,NASREDDINE,hamou nasreddine,portfolio,css,javascript,html"><!--to add keywords that help-->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+    <!-- pictures for the logo of the title -->
+    
+    <link rel="icon" href="photos/logo.png" >
+</head>
+<body>
+    <!-- this is the main page -->
+    <header>
+        <!-- this is the navbar part -->
+        <nav class="nav-container">
+            <h2><a href="#">MY-PORTFOLIO</a> </h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#function">SERVICES</a></li>
+                <li><a href="#our-work">PORTFOLIO</a></li>
+                <li><a href="#talk">CONTACT</a></li>
+                <button>
+                     <!--the word "download" is for downloading the cv-->
+                    <a href="/photos/cv.pdf" class="btn-primary" download>
+                        <span class="material-symbols-sharp">file_download</span>
+                        <h3>DOWNLOAD CV</h3>
+                    </a>
+                </button>
+            </ul>
+            <div class="close-btn">
+                <span  class="material-icons-sharp menu">menu</span>
+                <span  class="material-icons-sharp close">close</span>
+            </div>
+        </nav>
+        <!-- th content of the main page -->
+        <section id="content">
+            <div class="text-content">
+                <h3>Hello There! I'm</h3>
+                <h1>HAMOU <br> NASREDDINE</h1>
+                <p>Motivated full stack web developer with hands-on
+                    experience in both front-end and back-end technologies.
+                    Strong foundation in web development through project-based learning. Proficient in creating responsive, user-friendly web applications and integrating databases using
+                    modern frameworks and technologies.</p>
+                <button>
+                    <a href="#talk" class="btn-primary">
+                        <h3>Get in touch</h3>
+                        <span class="material-symbols-sharp">send</span>
+                    </a>
+                </button>
+            </div>
+            <div class="info">
+                <div class="image-content">
+                    <img src="photos/head.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <section id="function">
+        <div class="card">
+            <h1>3+</h1>
+            <h2>Years Working <br> Experience</h2>
+            <p>I create responsive websites, interactive web apps, scalable e-commerce platforms, data-driven dashboards, secure authentication systems, and user-friendly content management systems. Each project is built with a focus on functionality, performance, and maintainability, delivering seamless and efficient user experiences.</p>
+        </div>
+        <div class="description">
+            <h3>Product Developer, Specialized
+                in Front-end and Back-end & Database management</h3>
+            <div class="boxes">
+                <div class="box">
+                    <span class="material-icons-sharp">terminal</span>
+                    <h3>Web Application Development</h3>
+                </div>
+
+                <div class="box">
+                    <span class="material-icons-sharp">lightbulb</span>
+                    <h3>Custom Software Solutions</h3>
+                </div>
+
+                <div class="box">
+                    <span class="material-icons-sharp">engineering</span>
+                    
+                    <h3>Maintenance & Support</h3>
+                </div>
+
+                <div class="box">
+                    <span class="material-icons-sharp">emoji_objects</span>
+                    <h3>E-commerce Solutions</h3>
+                </div>
+
+                <div class="box">
+                    <span class="material-icons-sharp">
+                        webhook
+                        </span>
+                    <h3>API Development & Integration</h3>
+                </div>
+
+                <div class="box">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h3>Responsive Websites</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My skills -->
+    <section id="skills-section">
+        <div class="skills-header">
+          <h2>My Skills</h2>
+          <div class="skills-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="frontend">Frontend</button>
+            <button class="filter-btn" data-category="backend">Backend</button>
+            <button class="filter-btn" data-category="databases">Databases</button>
+            <button class="filter-btn" data-category="programminglanguage">PROGRAMMING LANGUAGE</button>
+            <button class="filter-btn" data-category="machinelearning">Machine Learning</button>
+          </div>
+          <div class="skills-filter-dropdown">
+            <select id="skills-filter-select">
+              <option class="filter-btn-dropdown active" data-category="all" value="all"><button >All</button></option>
+              <option class="filter-btn-dropdown" data-category="frontend" value="frontend"><button>Frontend</button></option>
+              <option class="filter-btn-dropdown" data-category="backend" value="backend"><button>Backend</button></option>
+              <option class="filter-btn-dropdown" data-category="databases" value="databases"><button>Databases</button></option>
+              <option class="filter-btn-dropdown" data-category="programminglanguage" value="programminglanguage"><button>PROGRAMMING LANGUAGE</button></option>
+              <option class="filter-btn-dropdown" data-category="machinelearning" value="machinelearning"><button>Machine Learning</button></option>
+
+            </select>
+          </div>
+        </div>
+      
+        <div class="skills-list">
+          <div class="skill-item" data-category="frontend">HTML</div>
+          <div class="skill-item" data-category="frontend">CSS</div>
+          <div class="skill-item" data-category="frontend">JAVASCRIPT</div>
+          <div class="skill-item" data-category="frontend">BOOTSTRAP</div>
+          <div class="skill-item" data-category="frontend">REACTJS</div>
+          <div class="skill-item" data-category="frontend">MATERIALUI</div>
+          <div class="skill-item" data-category="backend">Django</div>
+          <div class="skill-item" data-category="backend">DRF</div>
+          <div class="skill-item" data-category="backend">RESTAPI</div>
+          <div class="skill-item" data-category="backend">LARAVEL</div>
+          <div class="skill-item" data-category="backend">FIREBASE</div>
+          <div class="skill-item" data-category="databases">MySQL</div>
+          <div class="skill-item" data-category="databases">REDIS</div>
+          <div class="skill-item" data-category="databases">MONGODB</div>
+          <div class="skill-item" data-category="databases">CYPHER</div>
+          <div class="skill-item" data-category="databases">CASSANDRA</div>
+          <div class="skill-item" data-category="programminglanguage">C</div>
+          <div class="skill-item" data-category="programminglanguage">JAVA</div>
+          <div class="skill-item" data-category="programminglanguage">PYTHON</div>
+          <div class="skill-item" data-category="programminglanguage">R</div>
+          <div class="skill-item" data-category="programminglanguage">MYSQL</div>
+          <div class="skill-item" data-category="programminglanguage">PHP</div>
+          <div class="skill-item" data-category="machinelearning">TensorFlow</div>
+          <div class="skill-item" data-category="machinelearning">Scikit-Learn</div>
+        </div>
+      </section>
+      
+
+    <section id="our-work">
+        <div class="text-content">
+            <h2>Featured Works</h2>
+            <div class="info">
+                <div class="explore">
+                    <a href="works.html">
+                        <h5>Explore More</h5>
+                        <span class="material-icons-sharp">arrow_right_alt</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="images-content">
+            <div class="box">
+                <img src="photos/p8.png">
+                <div class="button">
+                    
+                    <button class="btn-primary"><a href="https://robot-clone.netlify.app/" target="_blank">Live Demo</a></button>
+                </div>
+                
+            </div>
+            <div class="box">
+                <img src="photos/p2.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-travel.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p4.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-gym.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="photos/p7.png">
+                <div class="button">
+                    <button class="btn-primary"><a href="https://z-hospital.netlify.app" target="_blank">Live Demo</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="talk">
+        <div class="text-content">
+            <h2>Let's work <br /> together</h2>
+            <div class="contact-link">
+                <div class="mail link">
+                    <h3>Mail</h3>
+                    <h6>nasreddinehamou8@gmail.com</h6>
+                </div>
+                <div class="addresse  link">
+                    <h3>Adress</h3>
+                    <h6>19 Street Belarbi ElHabib, Oran,Algeria</h6>
+                </div>
+                <div class="phone  link">
+                    <h3>Phone</h3>
+                    <h6>+213 659 181 999</h6>
+                </div>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089688589413" target="_blank"><img src="/photos/facebook.png" alt=""></a>
+                <a href="https://github.com/hamou592" target="_blank"><img src="/photos/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/hamou-nasreddine-a967622a9/" target="_blank"><img src="/photos/linkedin.png" alt=""></a>
+            </div>
+        </div>    
+        <div class="contact">
+            <form action="https://formspree.io/f/mzbonzlo" target="_blank" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="name@gmailcom" required>
+                <textarea name="messag" rows="7" placeholder="Add a Message" required></textarea>
+                <button class="btn-primary">
+                    <h3>Send</h3>
+                    <span class="material-symbols-sharp">north_east</span>
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <h4 class="footer">Copyright &#169 Hamou Nasreddine 2024 </h4>
+
+    <script src="portfolio.js"></script>
+    <script src="testimonial.js"></script>
+</body>
+
+
+
+</html>
